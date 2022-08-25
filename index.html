@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman game</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/feather-icons"></script>
+	</head>
+	<body>
+		<header>
+			<img class="header__logo" src="https://www.alura.com.br/assets/img/alura-logo.svg"></i>
+			<nav class="header__menu">
+				<li><a href="https://josafa.com.br" target="_blank">Portfólio</a></li>
+				<li><a href="https://blog.josafa.com.br" target="_blank">Blog</a></li>
+				<li>
+                    <div class="header__social">
+                        <a href="https://github.com/josafamarengo" target="_blank"><i data-feather="github"></i></a>
+                        <a href="https://linkedin.com/in/josafamarengo" target="_blank"><i data-feather="linkedin"></i></a>
+                        <a href="https://codepen.io/josafamarengo" target="_blank"><i data-feather="codepen"></i></a>
+                    </div>
+                </li>
+			</nav>
+            <i data-feather="menu" class="menu"></i>
+		</header>
+		<main id="main">
+			<canvas id="canvas" width="1000" height="500"></canvas>
+			<input id="input" type="text" autofocus></input>
+		</main>
+		<div class="startPage">
+			<button id="startButton">Começar a jogar</button>
+			<button>Adicionar palavra</button>
+		</div>
+        <script src="script.js"></script>
+        <script>
+            feather.replace()
+        </script>
+	</body>
+</html>
